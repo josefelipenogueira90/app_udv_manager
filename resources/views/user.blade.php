@@ -4,13 +4,12 @@
     <!-- Page Heading -->
         <div class="d-sm-flex mt-5 align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">Usuários</h1>
+            <a href="#" class="d-none d-sm-inline-block btn btn btn-primary shadow-sm"><i
+                                class="fas fa-user-plus fa-sm text-white-60"></i> Cadastrar Usuário</a>
         </div>
 
         
-                    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-                        For more information about DataTables, please visit the <a target="_blank"
-                            href="https://datatables.net">official DataTables documentation</a>.</p>
-
+                    
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
@@ -501,6 +500,8 @@
                             </div>
                         </div>
                     </div>
+                    <p class="mb-4"><a target="_blank"
+                            href="https://datatables.net">official DataTables documentation</a>.</p>
 
 </div>
 @endsection
