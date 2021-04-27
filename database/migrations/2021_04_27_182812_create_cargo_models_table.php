@@ -14,8 +14,8 @@ class CreateCargoModelsTable extends Migration
     public function up()
     {
         Schema::create('cargos', function (Blueprint $table) {
-            $table->id();
-            $table->integer('id_depart')->unsigned();
+            $table->bigIncrements('id');
+            $table->biginteger('id_depart')->unsigned();
             $table->foreign('id_depart')->references('id')->on('departamentos')->onDelete('cascade')->onUpdate('cascade');
             $table->string('nome');
             $table->double('salario_base',10,2);

@@ -14,8 +14,8 @@ class CreateFuncionarioModelsTable extends Migration
     public function up()
     {
         Schema::create('funcionarios', function (Blueprint $table) {
-            $table->id();
-            $table->integer('id_user')->unsigned();
+            $table->bigIncrements('id');
+            $table->biginteger('id_user')->unsigned();
             $table->foreign('id_user')->references('id')->on('usuarios')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamp('data_nascimento');
             $table->string('sexo');

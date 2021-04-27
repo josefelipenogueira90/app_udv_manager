@@ -14,8 +14,8 @@ class CreateDepTelefoModelsTable extends Migration
     public function up()
     {
         Schema::create('dep_telefo', function (Blueprint $table) {
-            $table->id();
-            $table->integer('id_depart')->unsigned();
+            $table->bigIncrements('id');
+            $table->bigInteger('id_depart')->unsigned();
             $table->foreign('id_depart')->references('id')->on('departamentos')->onDelete('cascade')->onUpdate('cascade');
             $table->string('telefone');
         });
