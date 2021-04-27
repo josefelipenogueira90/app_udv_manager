@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'ManagerController@index');
 
 Route::get('/painel','PainelController@index');
+
+Route::get('/usuarios','PainelController@user');
+

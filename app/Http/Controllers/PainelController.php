@@ -10,4 +10,10 @@ class PainelController extends Controller
     {
         return view('painel');
     }
+
+
+    public function user()
+    {
+        return view('user');
+    }
 }

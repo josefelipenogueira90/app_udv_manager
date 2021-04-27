@@ -15,6 +15,9 @@
 
     
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+    <!-- estilo para as tabelas-->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
     
 @yield('content')
 
