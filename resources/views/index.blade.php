@@ -33,19 +33,17 @@
                                                 id="exampleInputPassword" placeholder="Senha">
                                         </div>
                                         
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
+                                        <a href="/painel" class="btn btn-primary btn-user btn-block">
                                             Entrar
                                         </a>
                                         <hr>
-                                        <p>Para os testes use as credências a seguir: </p>
-                                        <p>Nível Administrador <br> E-mail: adm@teste.com e Senha mundonovo2021</p>
-                                        <p>Nível Supervisor <br> E-mail: super@teste.com e Senha mundonovo2021</p>
-                                        <p>Nível Funcionário <br> E-mail: func@teste.com e Senha mundonovo2021</p>
+                                        <p>Para os testes use as credênciais a seguir: </p>
+                                        <p><b>Administrador</b> <br> E-mail: adm@teste.com e Senha mundo2021</p>
+                                        <p><b>Supervisor </b><br> E-mail: super@teste.com e Senha mundo2021</p>
+                                        <p><b>Funcionário</b>  <br> E-mail: func@teste.com e Senha mundo2021</p>
                                     </form>
                                     <hr>
-                                    <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Esqueceu a senha?</a>
-                                    </div>
+                                    
                                     
                                 </div>
                             </div>
