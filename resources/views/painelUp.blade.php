@@ -59,8 +59,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Ações:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Listar</a>
-                        <a class="collapse-item" href="utilities-border.html">Cadastrar Funcionário</a>
+                        <a class="collapse-item" href="{{url('funcionários')}}">Listar</a>
+                        <a class="collapse-item" href="{{url('Funcionários/create')}}">Cadastrar Funcionário</a>
                         
                     </div>
                 </div>

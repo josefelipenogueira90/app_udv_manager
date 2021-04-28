@@ -22,4 +22,7 @@ Route::get('/usuarios/{user}','UserController@show');
 Route::get('/usuarios/{user}/edit','UserController@edit');
 
 
+Route::get('/funcionários','FuncioController@index');
+Route::get('/funcionários/{user}','FuncioController@show');
+Route::get('/funcionários/{user}/edit','FuncioController@edit');
 

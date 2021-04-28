@@ -1,20 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\FuncionarioModel;
 
 use Illuminate\Http\Request;
-use App\Models\UsuarioModel;
 
-class UserController extends Controller
+class CargoController extends Controller
 {
-    private $objUser;
-    
-    public function __construct()
-    {
-        $this->objUser=new UsuarioModel();
-    }
-
     /**
      * Display a listing of the resource.
      *
@@ -22,9 +13,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        $user =$this->objUser->all();
-        return view('user',compact('user'));
-        
+        //
     }
 
     /**
@@ -56,8 +45,7 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        $user =$this->objUser->find($id);
-        return view('userView',compact('user'));
+        //
     }
 
     /**
@@ -93,7 +81,4 @@ class UserController extends Controller
     {
         //
     }
-
-
-    
 }
