@@ -12,8 +12,5 @@ class PainelController extends Controller
     }
 
 
-    public function user()
-    {
-        return view('user');
-    }
+    
 }

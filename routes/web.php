@@ -17,5 +17,9 @@ Route::get('/', 'ManagerController@index');
 
 Route::get('/painel','PainelController@index');
 
-Route::get('/usuarios','PainelController@user');
+Route::get('/usuarios','UserController@index');
+Route::get('/usuarios/{user}','UserController@show');
+Route::get('/usuarios/{user}/edit','UserController@edit');
+
+
 
