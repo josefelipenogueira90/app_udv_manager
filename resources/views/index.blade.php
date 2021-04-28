@@ -37,6 +37,7 @@
                                             Entrar
                                         </a>
                                         <hr>
+                                        <p class="alert alert-info">Não foi implementado o sistema de login, click em Entrar. </p>
                                         <p>Para os testes use as credênciais a seguir: </p>
                                         <p><b>Administrador</b> <br> E-mail: adm@teste.com e Senha mundo2021</p>
                                         <p><b>Supervisor </b><br> E-mail: super@teste.com e Senha mundo2021</p>

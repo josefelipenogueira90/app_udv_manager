@@ -84,8 +84,8 @@
                 <div id="departaction" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Ações:</h6>
-                        <a class="collapse-item" href="login.html">Listar</a>
-                        <a class="collapse-item" href="register.html">Cadastrar Departamento</a>
+                        <a class="collapse-item" href="{{url('departamentos')}}">Listar</a>
+                        <a class="collapse-item" href="{{url('departamentos/create')}}">Cadastrar Departamento</a>
                     </div>
                 </div>
             </li>
@@ -100,8 +100,8 @@
                     <div id="cargoaction" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Ações:</h6>
-                        <a class="collapse-item" href="login.html">Listar</a>
-                        <a class="collapse-item" href="register.html">Cadastrar Departamento</a>
+                        <a class="collapse-item" href="{{url('cargos')}}">Listar</a>
+                        <a class="collapse-item" href="{{url('cargos/create')}}">Cadastrar Departamento</a>
                     </div>
                 </div>
             </li>

@@ -4,8 +4,20 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\DepartamentoModel;
+use App\Models\DepTelefoModel;
+
 class DepartController extends Controller
 {
+
+    
+    private $obgDepart;
+    
+    public function __construct()
+    {
+        
+        $this->objDepart=new DepartamentoModel();
+    }
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +25,8 @@ class DepartController extends Controller
      */
     public function index()
     {
-        //
+        $depart =$this->objDepart->all();
+        return view('departamento',compact('depart'));
     }
 
     /**

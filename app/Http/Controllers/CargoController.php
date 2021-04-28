@@ -4,8 +4,22 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\CargoModel;
+use App\Models\DepartamentoModel;
+
 class CargoController extends Controller
 {
+    private $objCargo;
+    private $obgDepart;
+    
+    public function __construct()
+    {
+        $this->objCargo=new CargoModel();
+        $this->objDepart=new DepartamentoModel();
+    }
+
+
+
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +27,8 @@ class CargoController extends Controller
      */
     public function index()
     {
-        //
+        $cargo =$this->objCargo->all();
+        return view('cargo',compact('cargo'));
     }
 
     /**

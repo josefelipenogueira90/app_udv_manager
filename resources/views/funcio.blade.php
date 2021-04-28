@@ -5,8 +5,8 @@
         <div class="d-sm-flex mt-5 align-items-center justify-content-between mb-4">
             
             <a href="#" class="d-none d-sm-inline-block btn btn btn-primary shadow-sm">
-            <i class="fas fa-user-plus fa-sm text-white-60"></i> Cadastrar Usuário</a>
-            <h1 class="h3 mb-0 text-gray-800 d-none">Usuários</h1>
+            <i class="fas fa-user-plus fa-sm text-white-60"></i> Cadastrar Funcionário</a>
+            <h1 class="h3 mb-0 text-gray-800 d-none">Funcionários</h1>
         </div>
 
         
@@ -14,7 +14,7 @@
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">DataTables Usuários</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">DataTables Funcionários</h6>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
